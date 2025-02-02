@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Akhil Vanaparthi - Full-Stack .NET Developer with 5+ years of experience in .NET, cloud-native solutions, microservices, and DevOps.">
     <title>Akhil Vanaparthi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
+    <!-- Loading Animation -->
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+
     <!-- Sticky Navigation -->
     <nav class="sticky-nav">
-        <a href="#summary">Summary</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#testimonials">Testimonials</a>
+        <a href="#summary" aria-label="Go to Summary Section">Summary</a>
+        <a href="#skills" aria-label="Go to Skills Section">Skills</a>
+        <a href="#experience" aria-label="Go to Experience Section">Experience</a>
+        <a href="#education" aria-label="Go to Education Section">Education</a>
+        <a href="#certifications" aria-label="Go to Certifications Section">Certifications</a>
     </nav>
 
     <!-- Parallax Header -->
@@ -32,36 +42,47 @@
             <p>Email: <a href="mailto:akhlvanaparthi1104@gmail.com">akhlvanaparthi1104@gmail.com</a></p>
             <p>Phone: +1 (737)-701-8567</p>
             <p>Location: Texas, USA</p>
+            <div class="social-links">
+                <a href="https://github.com/akhiltech-dev" target="_blank" aria-label="GitHub">GitHub</a>
+                <a href="https://linkedin.com/in/akhil-vanaparthi" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            </div>
         </div>
     </section>
 
     <!-- Summary -->
     <section class="section" id="summary">
         <h2>Summary</h2>
-        <p>Experienced Software Engineer with over 5+ years specializing in .NET, cloud-native solutions, microservices, and DevOps.</p>
+        <p>
+            Experienced Software Engineer with over 4+ years specializing as a .NET Developer and 1+ year in broader Software Development.
+            Proficient in developing and maintaining Java-based applications, utilizing core concepts like OOP, data structures, and algorithms.
+            Advanced proficiency in C# and the .NET ecosystem, including ASP.NET Core, WCF, WPF, MVC, Web API, Blazor, Razor, WinForms, ADO.NET,
+            and Entity Framework for scalable, high-performance enterprise applications. Extensive experience architecting and deploying cloud-native
+            solutions using AWS (EC2, S3, RDS) and Azure (API Management, Functions). Expertise in designing and implementing microservices and
+            RESTful APIs, leveraging API Gateway, OAuth 2.0, and JSON Web Tokens (JWT) for secure, distributed systems.
+        </p>
     </section>
 
-    <!-- Skills Section (Updated with More Skills) -->
+    <!-- Skills Section -->
     <section class="section" id="skills">
         <h2>Skills</h2>
         <div class="skill">
-            <p>C# .NET</p>
+            <p>Languages: Core Java, J2EE, SQL, XML, HTML, JavaScript, JQuery, CSS</p>
             <div class="progress-bar"><span data-width="95%"></span></div>
         </div>
         <div class="skill">
-            <p>JavaScript</p>
-            <div class="progress-bar"><span data-width="85%"></span></div>
-        </div>
-        <div class="skill">
-            <p>React & Angular</p>
-            <div class="progress-bar"><span data-width="80%"></span></div>
-        </div>
-        <div class="skill">
-            <p>SQL & Database Management</p>
+            <p>C# .NET Technologies: ASP.NET, WCF, WPF, MVC, Web API, Blazor, Razor, WinForms, Entity Framework</p>
             <div class="progress-bar"><span data-width="90%"></span></div>
         </div>
         <div class="skill">
-            <p>Azure & AWS Cloud</p>
+            <p>Web Technologies: Angular, React, UI, Bootstrap, HTML, XML, CSS</p>
+            <div class="progress-bar"><span data-width="85%"></span></div>
+        </div>
+        <div class="skill">
+            <p>Cloud Services: AWS, Azure (APIs)</p>
+            <div class="progress-bar"><span data-width="80%"></span></div>
+        </div>
+        <div class="skill">
+            <p>CI/CD Tools: Jenkins, Git, GitHub, Bitbucket, Docker</p>
             <div class="progress-bar"><span data-width="75%"></span></div>
         </div>
     </section>
@@ -69,17 +90,31 @@
     <!-- Experience Section -->
     <section class="section" id="experience">
         <h2>Experience</h2>
-        <h3>Wawanesa Group - Software Developer</h3>
+
+        <h3>Wawanesa Group - Software Developer (Jan 2023 - Current)</h3>
         <ul>
-            <li>Developed Java applications using J2EE technologies.</li>
-            <li>Managed environment variables by migrating configuration files to a database.</li>
-            <li>Worked with Git for version control and deployed applications on Tomcat.</li>
+            <li>Developed, tested, and maintained Java applications using J2EE technologies such as JSP, Servlets, and JDBC.</li>
+            <li>Centralized environment variable management by migrating from individual configuration files to a unified database table.</li>
+            <li>Utilized IntelliJ IDEA for efficient coding and deployed applications on Tomcat servers.</li>
+            <li>Managed version control using Git, enabling smooth collaboration and efficient tracking of code changes.</li>
+            <li>Implemented the Data Access Object pattern to decouple data operations, enhancing modularity.</li>
+            <li>Built and enhanced Java-based web solutions using Spring MVC and Spring Boot.</li>
+            <li>Automated AWS cloud infrastructure provisioning and management using EC2, S3, RDS, and IAM.</li>
+            <li>Enhanced system performance by 15% through process optimization within the Java architecture.</li>
+            <li>Integrated Spring Boot with external APIs and microservices for seamless data exchange.</li>
         </ul>
-        <h3>Coforges - .Net Software Developer</h3>
+
+        <h3>Coforges - .Net Software Developer (June 2019 - July 2021)</h3>
         <ul>
-            <li>Designed and maintained applications using .NET Core and C#.</li>
-            <li>Led the migration of legacy systems to modern architectures.</li>
-            <li>Enhanced UI using JavaScript, AJAX, and CSS.</li>
+            <li>Designed, developed, and maintained web and desktop applications using .NET technologies (C#, ASP.NET, .NET Core).</li>
+            <li>Led the upgrade of a legacy system to a modern architecture using Spring and Hibernate.</li>
+            <li>Actively participated in Scrum-based Agile development, collaborating with cross-functional teams.</li>
+            <li>Implemented the MVC pattern and applied design patterns like DTO, Service Locator, and Front Controller.</li>
+            <li>Enhanced user experience by utilizing AJAX, JavaScript, and CSS.</li>
+            <li>Strengthened server-side validation using the Struts framework.</li>
+            <li>Integrated Hibernate with Spring for efficient transaction management.</li>
+            <li>Optimized database interactions with complex Hibernate mappings.</li>
+            <li>Reduced database query times by 20% through Hibernate query optimizations and caching strategies.</li>
         </ul>
     </section>
 
@@ -87,15 +122,22 @@
     <section class="section" id="education">
         <h2>Education</h2>
         <p><strong>Master of Applied Computer Science</strong> - Northwest Missouri State University</p>
-        <p><strong>Bachelor’s in Information Technology</strong> - Marri Laxman Reddy Institute of Technology</p>
+        <p><strong>Bachelor’s in Computer Science</strong> - Jawaharlal Nehru Technological University, Hyderabad</p>
     </section>
 
-    <!-- Resume with PDF Preview -->
-    <section class="section">
-        <h2>Resume</h2>
-        <iframe class="resume-viewer" src="Akhil_Vanaparthi_resume.pdf" title="Resume Preview"></iframe>
-        <p><a href="Akhil_Vanaparthi_resume.pdf" download>Download Resume (PDF)</a></p>
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+        <h2>Certifications</h2>
+        <p>AWS Associate Certificate</p>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Akhil Vanaparthi. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top">↑</button>
 
     <!-- JavaScript for Effects -->
     <script>
@@ -104,11 +146,36 @@
             document.body.classList.toggle('dark-mode');
         });
 
-        // Animate Skills Progress Bars
-        document.addEventListener("DOMContentLoaded", function () {
-            document.querySelectorAll('.progress-bar span').forEach(span => {
-                span.style.width = span.getAttribute('data-width');
+        // Animate Skills Progress Bars on Scroll
+        document.addEventListener('scroll', function () {
+            const progressBars = document.querySelectorAll('.progress-bar span');
+            progressBars.forEach(bar => {
+                const rect = bar.parentElement.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom >= 0) {
+                    bar.style.width = bar.getAttribute('data-width');
+                }
             });
+        });
+
+        // Back to Top Button
+        window.onscroll = function () {
+            const backToTopButton = document.getElementById('back-to-top');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+
+        document.getElementById('back-to-top').addEventListener('click', function () {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        });
+
+        // Hide Loading Animation
+        window.addEventListener('load', function () {
+            const loading = document.getElementById('loading');
+            loading.style.display = 'none';
         });
     </script>
 
