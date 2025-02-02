@@ -14,6 +14,23 @@ body.dark-mode {
     color: #ffffff;
 }
 
+body.dark-mode .section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-mode .sticky-nav {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .sticky-nav a {
+    color: #ffdd57; /* Bright yellow for contrast in dark mode */
+}
+
+body.dark-mode .progress-bar span {
+    background-color: #ffcc00; /* Yellow progress bar in dark mode */
+}
+
 /* Sticky Navigation */
 .sticky-nav {
     position: fixed;
@@ -33,6 +50,10 @@ body.dark-mode {
     font-weight: bold;
 }
 
+.sticky-nav a:hover {
+    text-decoration: underline;
+}
+
 /* Section Styles */
 .section {
     background-color: white;
@@ -40,6 +61,11 @@ body.dark-mode {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .section {
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
 
 /* Skills */
@@ -68,4 +94,75 @@ body.dark-mode {
     width: 100%;
     height: 500px;
     border: none;
+    margin-top: 20px;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+body.dark-mode .contact-info a {
+    color: #ffdd57; /* Bright yellow for contrast in dark mode */
+}
+
+/* Parallax Header */
+.parallax {
+    background-image: url('header-bg.jpg'); /* Add your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.parallax h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.parallax p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+#dark-mode-toggle:hover {
+    background: #005bb5;
+}
+
+body.dark-mode #dark-mode-toggle {
+    background: #ffcc00;
+    color: #121212;
+}
+
+body.dark-mode #dark-mode-toggle:hover {
+    background: #ffdd57;
 }
