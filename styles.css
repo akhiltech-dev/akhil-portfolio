@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+    color: #0073e6;
+}
+
+/* Certificate Styles */
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificate {
+    flex: 1 1 calc(33.333% - 40px);
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificate p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
