@@ -3,109 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akhil Vanaparthi - Resume</title>
+    <title>Akhil Vanaparthi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-        .contact-info {
-            margin-bottom: 20px;
-        }
-        .contact-info a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
-    <header>
+
+    <!-- Sticky Navigation -->
+    <nav class="sticky-nav">
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+
+    <!-- Parallax Header -->
+    <header class="parallax">
         <h1>Akhil Vanaparthi</h1>
+        <p>Full-Stack .NET Developer</p>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Contact Info -->
+    <section class="section">
+        <h2>Contact Information</h2>
         <div class="contact-info">
             <p>Email: <a href="mailto:akhlvanaparthi1104@gmail.com">akhlvanaparthi1104@gmail.com</a></p>
             <p>Phone: +1 (737)-701-8567</p>
             <p>Location: Texas, USA</p>
         </div>
-    </header>
+    </section>
 
-    <section class="section">
+    <!-- Summary -->
+    <section class="section" id="summary">
         <h2>Summary</h2>
-        <p>
-            Experienced Software Engineer with over 4+ years specializing as a .NET Developer and 1+ year in broader Software Development. 
-            Proficient in Java, C#, .NET, cloud-native solutions, microservices, and DevOps practices. Strong background in Agile Scrum, 
-            TDD, and database management.
-        </p>
+        <p>Experienced Software Engineer with over 5+ years specializing in .NET, cloud-native solutions, microservices, and DevOps.</p>
     </section>
 
-    <section class="section">
+    <!-- Skills Section -->
+    <section class="section" id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Core Java, J2EE, SQL, XML, HTML, JavaScript, JQuery, CSS</li>
-            <li><strong>APIs:</strong> Collections, Serialization, String, Swing, JDBC, Servlet, JSP, Criteria, JNDI, SOAP, JPA</li>
-            <li><strong>C# .NET Technologies:</strong> ASP.NET, WCF, WPF, MVC, Web API, Blazor, Razor, WinForms, Entity Framework</li>
-            <li><strong>Web Technologies:</strong> Angular, React, UI, Bootstrap, HTML, XML, CSS</li>
-            <li><strong>Testing Frameworks:</strong> NUnit, xUnit, Unit Tests</li>
-            <li><strong>Cloud Services:</strong> AWS, Azure (APIs)</li>
-            <li><strong>CI/CD Tools:</strong> Jenkins, Git, GitHub, Bitbucket, Docker</li>
-            <li><strong>RDBMS:</strong> MS SQL Server, Oracle MySQL, MS Access</li>
-            <li><strong>Database Management:</strong> SQL, SQL Server Integration Services, SQL Server Analysis Services</li>
-            <li><strong>Server Technologies:</strong> ASP.NET, Web Services, WCF</li>
-            <li><strong>API Development:</strong> Azure APIs, RESTful APIs</li>
-            <li><strong>Methodologies:</strong> Agile Scrum, TDD, Waterfall</li>
-            <li><strong>Design Tools:</strong> UML (static), Visio, MS-Project</li>
-        </ul>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress-bar"><span data-width="90%"></span></div>
+        </div>
+        <div class="skill">
+            <p>C# .NET</p>
+            <div class="progress-bar"><span data-width="85%"></span></div>
+        </div>
+        <div class="skill">
+            <p>React</p>
+            <div class="progress-bar"><span data-width="80%"></span></div>
+        </div>
     </section>
 
-    <section class="section">
+    <!-- Experience Section -->
+    <section class="section" id="experience">
         <h2>Experience</h2>
         <h3>Wawanesa Group - Software Developer</h3>
         <ul>
-            <li>Developed, tested, and maintained Java applications using J2EE technologies such as JSP, Servlets, and JDBC.</li>
-            <li>Centralized environment variable management by migrating from individual configuration files to a unified database table.</li>
-            <li>Utilized IntelliJ IDEA for efficient coding and deployed applications on Tomcat servers.</li>
-            <li>Managed version control using Git, enabling smooth collaboration and efficient tracking of code changes.</li>
-            <li>Implemented the Data Access Object pattern to decouple data operations, enhancing modularity.</li>
+            <li>Developed Java applications using J2EE technologies.</li>
+            <li>Managed environment variables by migrating configuration files to a database.</li>
+            <li>Worked with Git for version control and deployed applications on Tomcat.</li>
         </ul>
-
         <h3>Coforges - .Net Software Developer</h3>
         <ul>
-            <li>Designed, developed, and maintained web and desktop applications using .NET technologies (C#, ASP.NET, .NET Core).</li>
-            <li>Led the upgrade of a legacy system to a modern architecture using Spring and Hibernate.</li>
-            <li>Actively participated in Scrum-based Agile development, collaborating with cross-functional teams.</li>
-            <li>Implemented the MVC pattern and applied design patterns like DTO, Service Locator, and Front Controller.</li>
-            <li>Enhanced user experience by utilizing AJAX, JavaScript, and CSS.</li>
+            <li>Designed and maintained applications using .NET Core and C#.</li>
+            <li>Led the migration of legacy systems to modern architectures.</li>
+            <li>Enhanced UI using JavaScript, AJAX, and CSS.</li>
         </ul>
     </section>
 
-    <section class="section">
+    <!-- Education -->
+    <section class="section" id="education">
         <h2>Education</h2>
         <p><strong>Master of Applied Computer Science</strong> - Northwest Missouri State University</p>
-        <p><strong>Bachelor’s in Computer Science</strong> - Jawaharlal Nehru Technological University, Hyderabad</p>
+        <p><strong>Bachelor’s in Information Technology</strong> - Marri Laxman Reddy Institute of Technology</p>
     </section>
 
-    <section class="section">
+    <!-- Certifications -->
+    <section class="section" id="certifications">
         <h2>Certifications</h2>
         <p><strong>AWS Associate Certificate</strong></p>
     </section>
 
+    <!-- GitHub Contributions -->
+    <section class="section github-contributions">
+        <h2>GitHub Contributions</h2>
+        <img src="https://ghchart.rshah.org/0073e6/AkhilVanaparthi" alt="GitHub Contribution Chart">
+    </section>
+
+    <!-- Resume with PDF Viewer -->
     <section class="section">
         <h2>Download Resume</h2>
-        <p><a href="Akhil Vanaparthi resume.pdf" download>Download Resume (PDF)</a></p>
+        <iframe class="resume-viewer" src="Akhil_Vanaparthi_resume.pdf"></iframe>
+        <p><a href="Akhil_Vanaparthi_resume.pdf" download>Download Resume (PDF)</a></p>
     </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"Akhil is a highly skilled developer with great problem-solving abilities!"</p>
+            <h4>- John Doe, CTO at TechCorp</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Akhil's contributions to our .NET projects were invaluable!"</p>
+            <h4>- Jane Smith, Senior Developer at XYZ Inc.</h4>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Dark Mode Toggle
+        document.getElementById('dark-mode-toggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        // Animate Skills Progress Bars
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('.progress-bar span').forEach(span => {
+                span.style.width = span.getAttribute('data-width');
+            });
+        });
+    </script>
+
 </body>
 </html>
