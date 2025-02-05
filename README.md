@@ -51,5 +51,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 Thank you for visiting my portfolio repository. Let's build something amazing together! 🚀
 
+Code | Create | Repeat 🔁
+"Debugging life’s problems, one commit at a time."
+
 
 
