@@ -36,3 +36,23 @@ This portfolio is more than just a website—it's a reflection of my journey as 
 
 ---
 
+.
+
+🤝 Let's Collaborate!
+I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out to me via:
+
+Email: akhilvanaparthi1104@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/akhil-vanaparthi-67464a21a/
+
+
+📜 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit. Contributions are always welcome!
+
+Thank you for visiting my portfolio repository. Let's build something amazing together! 🚀
+
+Code | Create | Repeat 🔁
+"Debugging life’s problems, one commit at a time."
+
+
+
